@@ -1,4 +1,4 @@
-package closeLetter;
+package min.closeLetter;
 
 public class Solution {
     public int[] solution(String s) {

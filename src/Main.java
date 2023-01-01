@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void closeLetterTest() {
-        closeLetter.Solution solution = new closeLetter.Solution();
+        min.closeLetter.Solution solution = new min.closeLetter.Solution();
 
         System.out.println(Arrays.toString(solution.solution("banana")));
     }
