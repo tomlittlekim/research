@@ -13,7 +13,16 @@ public class Main {
 //        closeLetterTest();
 //        futureExample();
 //        forkJoinPoolExample();
-        nextNumberTest();
+//        nextNumberTest();
+        sumOfConsecutiveNumbersTest();
+    }
+
+    public static void sumOfConsecutiveNumbersTest() {
+        min.test.sumOfConsecutiveNumbers.Solution solution = new min.test.sumOfConsecutiveNumbers.Solution();
+        System.out.println(Arrays.toString(solution.solution(3, 12)));
+        System.out.println(Arrays.toString(solution.solution(5, 15)));
+        System.out.println(Arrays.toString(solution.solution(4, 14)));
+        System.out.println(Arrays.toString(solution.solution(5, 5)));
     }
 
     public static void nextNumberTest() {
