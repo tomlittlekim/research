@@ -13,6 +13,13 @@ public class Main {
 //        closeLetterTest();
 //        futureExample();
 //        forkJoinPoolExample();
+        nextNumberTest();
+    }
+
+    public static void nextNumberTest() {
+        min.test.nextNumber.Solution solution = new min.test.nextNumber.Solution();
+        System.out.println(solution.solution(new int[] {1, 2, 3, 4}));
+        System.out.println(solution.solution(new int[] {2, 4, 8}));
     }
 
     public static void babblingTest() {
