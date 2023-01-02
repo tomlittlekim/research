@@ -1,4 +1,4 @@
-package min.babbling;
+package min.test.babbling;
 
 import java.util.HashMap;
 
