@@ -14,7 +14,15 @@ public class Main {
 //        futureExample();
 //        forkJoinPoolExample();
 //        nextNumberTest();
-        sumOfConsecutiveNumbersTest();
+//        sumOfConsecutiveNumbersTest();
+        paperCutTest();
+    }
+
+    public static void paperCutTest() {
+        min.test.paperCut.Solution solution = new min.test.paperCut.Solution();
+        System.out.println(solution.solution(2, 2));
+        System.out.println(solution.solution(2, 5));
+        System.out.println(solution.solution(1, 1));
     }
 
     public static void sumOfConsecutiveNumbersTest() {
