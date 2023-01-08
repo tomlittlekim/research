@@ -15,7 +15,18 @@ public class Main {
 //        forkJoinPoolExample();
 //        nextNumberTest();
 //        sumOfConsecutiveNumbersTest();
-        paperCutTest();
+//        paperCutTest();
+//        stringPushTest();
+        String A = "hello";
+        String B = "ohell";
+        B = B.repeat(3);
+        System.out.println(B);
+    }
+
+    public static void stringPushTest() {
+        min.test.stringPush.Solution solution = new min.test.stringPush.Solution();
+        System.out.println(solution.solution("hello", "ohell"));
+        System.out.println(solution.solution("apple", "elppa"));
     }
 
     public static void paperCutTest() {
